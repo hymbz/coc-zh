@@ -10,7 +10,7 @@
     "build:pdf": "gitbook pdf . ./coc-zh.pdf",
     "fetch": "ts-node tools/fetch.ts",
     "convert": "ts-node tools/convert.ts",
-    "fix": "ts-node tools/filter-footmark.ts"
+    "epub":"gitbook epub ./ ./myBook.epub --log=debug"
   },
   "repository": {
     "type": "git",
